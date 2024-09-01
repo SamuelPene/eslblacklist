@@ -1,0 +1,26 @@
+.nav {
+  background: var(--clr-primary);
+  width: 100%;
+  height: 12.5%;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav__icon h2 {
+  height: 100%;
+  width: 70%;
+  margin-left: 20%;
+  font-size: 1.5rem;
+  font-family: var(--ff-heading);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--clr-secondary);
+}
+
+.nav__menu svg {
+  height: 100%;
+  width: 65%;
+  margin-left: 160%;
+  color: var(--clr-secondary);
+}
