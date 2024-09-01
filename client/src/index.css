@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body,
+#root,
+.App {
+  height: 100%;
+  width: 100%;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+:root {
+  font-size: 16px;
+
+  /* Colour Variables */
+  --clr-primary: hsl(209, 76%, 75%);
+  --clr-secondary: hsl(0, 0%, 100%);
+  --clr-contrast: hsl(210, 2%, 16%);
+  --clr-light: hsl(209, 5%, 74%);
+  --clr-active: hsl(126, 100%, 37%);
+  --clr-inactive: hsl(0, 98%, 65%);
+
+  /* Font faces */
+  --ff-heading: "Rubik", sans-serif;
+  --ff-text: "Karla", sans-serif;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
