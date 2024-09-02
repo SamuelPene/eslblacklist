@@ -32,9 +32,8 @@ body,
 
 .App {
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
+  position: relative;
 }
 
 .container {
@@ -43,4 +42,5 @@ body,
   display: flex;
   align-items: center;
   justify-content: center;
+  border: green solid 3px;
 }

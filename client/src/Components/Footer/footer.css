@@ -1,5 +1,7 @@
 .footer {
   background: var(--clr-primary);
-  height: 12.5%;
+  height: 10%;
   width: 100%;
+  position: absolute;
+  bottom: 0;
 }

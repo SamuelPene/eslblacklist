@@ -5,6 +5,8 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  position: absolute;
+  top: 12.5%;
 }
 
 .landing_title {
